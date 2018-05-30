@@ -8,7 +8,7 @@ class Comment {
         this.image = this.findImage(imageId);
         Comment_all.push(this);
     }
-
+//taken
     findImage(imageId) {
         let imageObj = undefined;
         Image.all.forEach(image => {

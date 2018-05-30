@@ -6,7 +6,7 @@ class CommentsController {
   init() {
     this.addCommentFormListener();
   }
-
+  //taken
   addCommentFormListener() {
     [...document.getElementsByClassName('add-comment')].forEach(form => {
       form.addEventListener('submit', event => {
